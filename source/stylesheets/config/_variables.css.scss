@@ -1,0 +1,49 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Perso fonts
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype"), url("../fonts/ProximaNova-Light.svg") format("svg"); }
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype"), url("../fonts/ProximaNova-Regular.svg") format("svg"); }
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype"), url("../fonts/ProximaNova-Semibold.svg") format("svg"); }
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 800;
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold.svg") format("svg"); }
+
+$my-font: "Proxima Nova";
+$base-font: $my-font;
+$header-font: $my-font;
+$font-family-sans-serif: $base-font;
+$headings-font-family: $header-font;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+
+// Scheme
+$azur: rgba(6, 174, 213, 1);
+$blue: rgba(8, 103, 136, 1);
+$yellow: rgba(240, 200, 8, 1);
+$white: rgba(255, 241, 208, 1);
+$red: rgba(221, 28, 26, 1);
+$green: rgba(6, 214, 160, 1);
+
+// Grey scale
+$grey-dark: #384046;
+$grey-more: #bdc3c7;
+$grey-middle:#DDE1E4;
+$grey-light: #e9f0f3;
+$grey-white: #F5F7FA;
