@@ -6,9 +6,7 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('.grid').masonry({
-	  // options...
-	  itemSelector: '.grid-item',
-	  columnWidth: 200
+	$('.expertise-grid').masonry({
+	  itemSelector: '.expertise-single'
 	});
 });
