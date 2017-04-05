@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 
 	$('.expertise-grid').masonry({
-	  itemSelector: '.expertise-single'
-		$(this).masonry('layout');
+		// $('.expertise-grid').masonry('layout');
+	  itemSelector: '.expertise-single';
 	});
 });
