@@ -8,6 +8,6 @@ $(document).ready(function(){
 
 	$('.expertise-grid').masonry({
 		// $('.expertise-grid').masonry('layout');
-	  itemSelector: '.expertise-single';
+	  itemSelector: '.expertise-single',
 	});
 });
