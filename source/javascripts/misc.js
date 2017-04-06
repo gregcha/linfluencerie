@@ -5,9 +5,14 @@ $(document).ready(function(){
 		$('html, body').animate( { scrollTop: $(section).offset().top }, speed );
 		return false;
 	});
+});
 
-	$('.expertise-grid').masonry({
+jQuery(window).on('load', function(){
+		$('.expertise-grid').masonry({
 		// $('.expertise-grid').masonry('layout');
 	  itemSelector: '.expertise-single',
 	});
 });
+
+	
+	
