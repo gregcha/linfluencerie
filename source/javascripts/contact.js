@@ -9,7 +9,7 @@ $(document).ready(function(){
         dataType: "json",
         success: function(data){
           $('#footer h3').html("Message Envoyé <i class='fa fa-check'></i>");
-          $('#footer h3 i').css('color', '#086788');
+          $('#footer h3 i').css('color', '#f0c808');
           $('.form').trigger("reset");
         },
         error: function(){
