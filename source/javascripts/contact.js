@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(".form").submit(function(e) {
       e.preventDefault();
       $.ajax({
-        url: "//formspree.io/gregoire@linfluencerie.com",
+        url: "//formspree.io/charles@linfluencerie.com",
         method: "POST",
         data: $(this).serialize(),
         dataType: "json",
